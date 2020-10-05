@@ -64,7 +64,7 @@ a > span:hover {
 #center,
 #rightbar {
   float: left;
-  padding: 0;
+  padding: 0px;
   padding-left: 30px;
   padding-right: 30px;
   box-sizing: border-box;
@@ -92,3 +92,16 @@ a > span:hover {
  #topban h2 {
  text-align: center;
  }
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid, gray;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
