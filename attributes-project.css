@@ -105,3 +105,25 @@ ul.clfooter > li {
   display: inline;
   padding-right: 5px;
 }
+
+h4.ban::after,
+h4.ban::before {
+  content: "☮️"
+}
+
+
+a {
+  color: green;
+  font-weight: bold;
+
+}
+
+.cal td{
+  border-collapse: collapse;
+  border:1px solid #333;
+ text-align: center;
+}
+
+.cal {
+  border-collapse: collapse;
+}
